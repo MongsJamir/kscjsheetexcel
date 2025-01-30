@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheets to Excel</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src = script.js></script>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h2>Download Google Sheets as excel sheet.</h2>
+    <input type="text" id="apiKey" placeholder="Enter API Key" size="40">
+    <br>
+    <input type="text" id="sheetId" placeholder="Enter Google Sheet ID" size="40">
+    <button onclick="fetchSheetData()">Fetch Data</button>
+    <button onclick="downloadExcel()">Download as Excel</button>
+
+    <h2>This is a demonstrative application of the QR code attendance system built for ease of download of forms/sheets in an excel sheet format. Originally made for a Nature's Club event on 31/01/2025 by a student of CS department.</h2>
+</body>
+</html>
